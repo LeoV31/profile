@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  border-radius: 30%;
+}
+
+h1, h2, h3 {
+  color: #222222;
+  font-family: 'Helvetica', sans-serif;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+div {
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border: 1px solid #F7F7F7F7;
+  border-radius: 4px;
+  text-align: center;
+  margin: 30px auto;
+  padding: 25px;
+}
+
+.socials li{
+  display: inline-block;
+  margin: 15px;
+}
+
+#img-lion {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+button {
+  background-color: #aa6a04;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: brown;
+  transition: color .5s ease-in;
+}
+
+button:active {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+  }
+}
